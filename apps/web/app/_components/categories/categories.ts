@@ -1,7 +1,7 @@
-import { EducationIcon } from "../icons/education";
-import { FactoryIcon } from "../icons/factory";
-import { BabyIcon } from "../icons/baby";
-import { PoliticsIcon } from "../icons/politics";
+import { EducationIcon } from "../../icons/education";
+import { FactoryIcon } from "../../icons/factory";
+import { BabyIcon } from "../../icons/baby";
+import { PoliticsIcon } from "../../icons/politics";
 
 export interface CategoryType {
   id: string;

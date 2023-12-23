@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Providers from "../util/Providers";
 import { Inter as FontSans, Bayon } from "next/font/google";
 import "./globals.css";
 import { cn } from "../lib/utils";
@@ -35,7 +36,7 @@ export default function RootLayout({
           bayon.variable,
         )}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
